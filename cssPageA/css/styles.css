@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+    font-family: 'Tourney', cursive;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Tourney', cursive;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    width: 4%;
+    border: 6px dotted #EAF6F6;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+body {
+    text-align: center;
+    color: #40514E;
+    background-color: #EAF6F6;
+}
+
+.top-container {
+    background-color: #d9e2f1;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    top: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.code-img{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chill-img{
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-img{
+    width: 10%;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.btn{
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 20px;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 1px 1px 5px 0 #000;
+}
+
+.btn:hover{
+    border: solid #11999E 1px;
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    padding: 20px 0px;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
